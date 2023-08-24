@@ -1,5 +1,13 @@
-- 👋 Hi, I'm @Giocrisrai
-- 👀 I am passionate about Artificial Intelligence, Data Science, Machine Learning, faithfully believing that this will help the development of a better future.
-- 🌱 I am currently developing artificial intelligence models from environmental data for the prediction of time series in the ocean
-- 💞️ I seek to collaborate in projects that help in the use of technologies for sustainable development and innovative ideas that allow us to challenge the intellectual growth and quality of life of us as humans
-- 📫 You can contact me through my email contact@giocrisrai.com giocrisrai@gmail.com or through my linkedin https://www.linkedin.com/in/giocrisrai/
+### Hi there, I'm @Giocrisrai 👋
+
+Passionate about Artificial Intelligence, Data Science, and Machine Learning, I firmly believe that these fields hold the key to shaping a better future.
+
+🌊 Currently, I'm immersed in the world of AI, focusing on developing advanced models using environmental data to predict oceanic time series. Leveraging technologies like Hugging Face, Kedro, and PostgreSQL, I'm exploring the intersection of AI and the natural world.
+
+🌱 My journey is guided by a commitment to sustainable development. I'm on the lookout for collaborative projects that harness technology to drive positive environmental impact. I believe in nurturing innovative ideas that challenge our intellect and elevate our quality of life as humans.
+
+🚀 I bring a strong foundation in Data Science and Optimization processes, utilizing Python to generate AI-driven solutions for process enhancement, traceability, and even generative product creation.
+
+📫 Let's connect and explore the possibilities! Feel free to reach me through email at contact@giocrisrai.com or giocrisrai@gmail.com. You can also find me on [LinkedIn](https://www.linkedin.com/in/giocrisrai/).
+
+Let's bridge the gap between technology and sustainability, one innovation at a time. 🌏🤝 #AIforGood #DataDrivenSolutions #SustainableTech
