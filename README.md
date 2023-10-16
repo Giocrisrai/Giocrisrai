@@ -47,4 +47,4 @@ I am open to collaborations and opportunities. Feel free to reach out:
 
 ### Professional Experience and Education 📚
 
-For a more detailed view of my professional experience and education, please check out my [Curriculum Vitae](CV_URL_here).
+For a more detailed view of my professional experience and education, please check out my [Curriculum Vitae]([CV_URL_here](https://www.canva.com/design/DAFucEC9fmg/qja2OfBizxx1k7ueBTCp5w/view?utm_content=DAFucEC9fmg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)https://www.canva.com/design/DAFucEC9fmg/qja2OfBizxx1k7ueBTCp5w/view?utm_content=DAFucEC9fmg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink).
