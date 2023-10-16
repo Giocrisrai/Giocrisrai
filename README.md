@@ -1,13 +1,50 @@
-### Hi there, I'm @Giocrisrai 👋
+### Hello, I'm Gio (Giocrisrai Godoy) 🌟
 
-Passionate about Artificial Intelligence, Data Science, and Machine Learning, I firmly believe that these fields hold the key to shaping a better future.
+🌱 **About Me**: 
+Passionate about the groundbreaking strides being made in Generative Artificial Intelligence, Data Science, and Machine Learning. I'm a strong advocate for leveraging these fields to create a more sustainable, efficient, and innovative future.
 
-🌊 Currently, I'm immersed in the world of AI, focusing on developing advanced models using environmental data to predict oceanic time series. Leveraging technologies like Hugging Face, Kedro, and PostgreSQL, I'm exploring the intersection of AI and the natural world.
+---
 
-🌱 My journey is guided by a commitment to sustainable development. I'm on the lookout for collaborative projects that harness technology to drive positive environmental impact. I believe in nurturing innovative ideas that challenge our intellect and elevate our quality of life as humans.
+#### 🚀 Current Focus 
 
-🚀 I bring a strong foundation in Data Science and Optimization processes, utilizing Python to generate AI-driven solutions for process enhancement, traceability, and even generative product creation.
+Diving deep into the world of Generative AI, I specialize in:
 
-📫 Let's connect and explore the possibilities! Feel free to reach me through email at contact@giocrisrai.com or giocrisrai@gmail.com. You can also find me on [LinkedIn](https://www.linkedin.com/in/giocrisrai/).
+- 🛠 **Technologies**: OpenAI's GPT models, Hugging Face, Generative Adversarial Networks
+- 🎯 **Applications**: Natural Language Generation, Image Generation, Chatbots
 
-Let's bridge the gap between technology and sustainability, one innovation at a time. 🌏🤝 #AIforGood #DataDrivenSolutions #SustainableTech
+---
+
+#### 🌏 Sustainable Development
+
+Driven by a commitment to sustainable development, I'm always on the lookout for collaborative projects that employ technology to enact positive environmental and societal change.
+
+---
+
+#### 💡 Technical Skills
+
+With a solid foundation in Data Science and Optimization, I use Python to develop AI-powered solutions aimed at:
+
+- 📈 Process Enhancement
+- 🎯 Traceability
+- 🛠 Generative Product Creation
+
+---
+
+#### 📫 Let's Connect
+
+I am open to collaborations and opportunities. Feel free to reach out:
+
+- 📧 Email: [contact@giocrisrai.com](mailto:contact@giocrisrai.com) or [giocrisrai@gmail.com](mailto:giocrisrai@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/giocrisrai/)
+
+---
+
+#### 🌏 Let's bridge the gap between technology and sustainability, one innovation at a time.
+
+🔗 **#AIforGood #DataDrivenSolutions #SustainableTech**
+
+---
+
+### Professional Experience and Education 📚
+
+For a more detailed view of my professional experience and education, please check out my [Curriculum Vitae](CV_URL_here).
