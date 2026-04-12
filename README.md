@@ -1,90 +1,93 @@
-# Gio Godoy (Giocrisrai) 🌐  
-**Machine Learning / AI Engineer**
+# Giocrisrai Godoy
+
+**ML / AI Engineer** · Chile · Open to global opportunities
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-giocrisrai.com-f59e0b?style=flat-square)](https://giocrisrai.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Giocrisrai-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/giocrisrai)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Giocrisrai-FF6C00?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/giocrisrai)
+[![Email](https://img.shields.io/badge/Email-contact@giocrisrai.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@giocrisrai.com)
 
 ---
 
-![Python Badge](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=white)  
-![Hugging Face Badge](https://img.shields.io/badge/Hugging%20Face-FF6C00?logo=huggingface&logoColor=white)  
-![OpenAI Badge](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white)  
-![Kedro Badge](https://img.shields.io/badge/Kedro-43C0F6?logo=kedro&logoColor=white)
+ML/AI Engineer with a Mechatronics Engineering background and two Master's degrees (AI + Mathematical Engineering & Computation). I build production-grade AI systems — from 6-DoF pose estimation with Transformers to generative AI tools for education. Currently a university professor and researcher at DUOC UC while working as Data Engineer at MTsolutions.
+
+**135+ certifications** including Azure AI, DeepLearning.AI, IBM RAG, and more.
 
 ---
 
-## 🚀 About Me
+## Core Expertise
 
-I’m a Machine Learning / AI Engineer with a Mechatronics background, currently pursuing a **Master’s in Artificial Intelligence**. My work spans end-to-end AI systems: from experimental prototypes (vision, NLP, generative models) to production-grade pipelines, agent-driven systems, and vector retrieval architectures. I believe technology should amplify social & environmental good—efficiency, sustainability, and impact are central to how I build.
-
----
-
-## 🔍 Core Technical Expertise
-
-| Domain | Skills & Tools |
+| | |
 |---|---|
-| **Generative AI & RAG** | LLMs (OpenAI, Hugging Face), prompt engineering, retrieval-augmented generation |
-| **Vector Databases & Semantic Search** | Pinecone, Weaviate, Milvus, FAISS; embedding techniques, similarity search, document retrieval |
-| **Data Engineering & Pipelines** | Kedro, modular ETL/ELT, data versioning, reproducible workflows |
-| **Agents & MCP Protocol** | AI agents, implementing MCP (Model Context Protocol) for controlled model interactions |
-| **Code Quality & Collaboration** | Clean code principles, modular & maintainable architecture, peer review, pair programming (tools like Cursor, Claude Code) |
-| **Optimization & Analytics** | Model tuning, loss/hyperparameter optimization, business/operational analytics, measurement of impact |
+| **LLMs & Generative AI** | Fine-tuning, prompt engineering, RAG pipelines, LangChain, OpenAI, Hugging Face |
+| **Computer Vision** | 6-DoF pose estimation, Transformers (FoundationPose), object detection, BOP benchmarks |
+| **AI Agents & MCP Protocol** | Agent-driven systems, Model Context Protocol, tool-use architectures |
+| **Deep Learning & NLP** | PyTorch, Diffusion Models, SE(3) Lie Groups, text classification, embeddings |
+| **Data Engineering & MLOps** | Kedro pipelines, Docker, FastAPI, Flask, CI/CD, reproducible workflows |
+| **Cloud & Vector DBs** | AWS, GCP, Azure, FAISS, ChromaDB, Pinecone |
 
 ---
 
-## 🧰 Projects & Portfolio Highlights
+## Featured Projects
 
-Here are a few of my work pieces & where I’ve applied these skills:
+### 6-DoF Pose Estimation for Robotic Bin Picking
+> MSc Thesis — UNIR 2026
 
-- **Environmental AI Prototypes** — In my portfolio I’ve built experimental AI models for *biogeochemical modeling* and *hydrodynamic oceanographic centers* to predict environmental variables and assess impact.
-- **Role at Alaya** — Leading work in quality assurance (QA) for model evaluations in mining, using Kedro pipelines; packaging and deploying ML models; integrating generative AI to enhance solution value. 
-- **Geogama / Development Engineering** — Led process improvement, automation, digital transformation, environmental tech / AI/ML research within smaller institucions.
+End-to-end pipeline integrating **FoundationPose** (Transformers, CVPR 2024) vs GDR-Net++ on BOP benchmarks. Diffusion Policy for multi-modal grasp trajectory generation. 5,600+ LOC, 77 tests, Lie group mathematics (SE(3)/SO(3)).
 
----
+`Transformers` `Diffusion Models` `PyTorch` `SE(3) Lie Groups` `BOP Benchmark` `ROS 2`
 
-## 🌟 What Sets Me Apart
+[![Repo](https://img.shields.io/badge/GitHub-pose6dof--transformers--diffusion-181717?style=flat-square&logo=github)](https://github.com/Giocrisrai/pose6dof-transformers-diffusion)
 
-- Strong interdisciplinary base (Mechatronics + AI) giving me system thinking from hardware/data to model to deployment.  
-- Deep commitment to **clean, maintainable, reusable code**, and collaboration: pair programming, code reviews, documentation.  
-- Experience integrating **AI agents** and **MCP Protocol** for building context-aware systems.  
-- Practical experience in vector search, RAG, embedding methods, and generative AI.  
-- Prioritize outcomes: sustainability, optimization, and social/environmental impact.
+### krinoInsight — AI for Education
+> In production at DUOC UC
 
----
+Generative AI-powered software for automated test correction with personalized student feedback. Significantly reduces instructor workload while improving feedback quality.
 
-## 🔧 Tools & Technologies
-- Python • PyTorch / TensorFlow • Hugging Face • OpenAI API
-- Vector DBs: ChromaDB / Pinecone / FAISS
-- Kedro (pipelines) • Docker • CI/CD • Flask / FastAPI for deployment
-- MCP Protocol • Agents & Prompt Engineering
-- Cursor • Claude Code • Git • Clean Architecture
-- Cloud Platforms (AWS / GCP / Azure)
-- Statistical / Optimization Tools • Analytics / Monitoring
+`Generative AI` `LLMs` `EdTech` `Python`
 
-  ---
+### Chilean Sign Language + Canal 13
+> Industry-academia collaboration
 
-## 🎯 What I’m Looking For
+Prototype generating realistic human-like avatars to translate Chilean Sign Language for TV broadcasts. Collaboration between DUOC UC and Canal 13 for accessibility.
 
-I’m seeking roles and collaborations where I can:
+`Computer Vision` `Deep Learning` `Avatar Generation` `Accessibility`
 
-- Architect or join teams building **RAG-based or agent-driven products**  
-- Design or scale **semantic search/vector retrieval systems**  
-- Build modular, reproducible **data & ML pipelines**  
-- Work with clean code practices and collaborative tools in teams valuing quality, ethics, impact  
-- Contribute to AI projects with measurable real-world value (sustainability, optimization, efficiency)
+### ChatPDFGio
+> Full-stack RAG application
+
+Intelligent chatbot for uploading and conversing with PDF documents. FastAPI backend + Streamlit frontend, containerized with Docker.
+
+`RAG` `FastAPI` `LangChain` `Docker` `Streamlit`
+
+[![Repo](https://img.shields.io/badge/GitHub-chatpdfgio-181717?style=flat-square&logo=github)](https://github.com/Giocrisrai/chatpdfgio)
 
 ---
 
-## 📫 Contact, Links & Resume
+## Tech Stack
 
-- **Email**: contact@giocrisrai.com • giocrisrai@gmail.com  
-- **LinkedIn**: [Giocrisrai Godoy](https://www.linkedin.com/in/giocrisrai/)
-- **Portfolio**: [giocrisrai.com/portfolio](https://www.giocrisrai.com/portfolio/) — environmental & AI prototypes, etc. 
-- **Hugging Face**: [Giocrisrai](https://huggingface.co/giocrisrai) — AI/ML interests and future model sharing.
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FF6C00?style=flat-square&logo=huggingface&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![ROS 2](https://img.shields.io/badge/ROS%202-22314E?style=flat-square&logo=ros&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Kedro](https://img.shields.io/badge/Kedro-43C0F6?style=flat-square&logo=kedro&logoColor=white)
 
 ---
 
-> “Building intelligent, agent-driven systems that are sustainable, optimized, transparent, and driven by clean architecture—not just hype.”
+## What I'm Looking For
+
+I'm seeking **international roles, consulting, and collaborations** where I can:
+
+- Architect or join teams building **LLM-powered and agent-driven products**
+- Design end-to-end **computer vision and deep learning pipelines**
+- Build scalable **data & ML infrastructure**
+- Contribute to AI projects with measurable real-world impact
 
 ---
 
-## 🏷 Keywords
-
-Machine Learning Engineer • RAG • Vector Databases • AI Agents • MCP Protocol • Pipeline Engineering • Generative AI • Clean Code • Pair Programming • Sustainability • Optimization
+> *Building production-grade AI systems — not prototypes, not demos, real systems that solve real problems.*
