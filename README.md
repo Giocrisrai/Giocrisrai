@@ -1,6 +1,6 @@
 # Giocrisrai Godoy Bonillo
 
-**AI Engineer · Founder** · Puerto Montt, Chile
+**AI Engineer** · LLM Security & Assurance · Puerto Montt, Chile
 
 Ingeniería de IA para **sistemas en producción** — no prototipos, no demos.
 Verificación y seguridad de agentes LLM, visión por computador para robótica, y modelos predictivos para industrias reguladas.
