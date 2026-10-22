@@ -12,7 +12,7 @@ Verificación y seguridad de agentes LLM, visión por computador para robótica,
 
 ---
 
-Ingeniero de IA con formación en Mecatrónica y dos magísteres (IA + Ingeniería Matemática y Computación). Construyo y **opero** sistemas de IA en producción: pipelines de evaluación con LLM, RAG empresarial, estimación de pose 6-DoF con Transformers, y auditoría de seguridad de agentes conversacionales. Profesor e investigador en Duoc UC.
+Ingeniero de IA con formación en Mecatrónica y dos magísteres (IA + Ingeniería Matemática y Computación). Construyo y **opero** sistemas de IA en producción: una plataforma de evaluación con LLM que corre en Azure para Duoc UC, auditorías de seguridad de agentes conversacionales para empresas chilenas, robótica autónoma en el borde (Jetson + TensorRT) y estimación de pose 6-DoF con Transformers. Profesor e investigador en Duoc UC.
 
 La diferencia que me importa: **no solo pruebo sistemas de IA, los mantengo corriendo con SLA, incidentes reales y usuarios de verdad.**
 
@@ -23,7 +23,8 @@ La diferencia que me importa: **no solo pruebo sistemas de IA, los mantengo corr
 | | |
 |---|---|
 | **AI Assurance & Seguridad de LLM** | Auditoría de agentes conversacionales mapeada a OWASP Top 10 for LLM Applications y NIST AI RMF: prompt injection, fuga de system prompt, agencia excesiva, consumo no acotado. → [`agent-assurance`](https://github.com/Giocrisrai/agent-assurance) |
-| **Computer Vision & Robótica** | Estimación de pose 6-DoF con Transformers (FoundationPose) y Diffusion Models sobre benchmarks BOP. Matemática de grupos de Lie SE(3)/SO(3). |
+| **IA generativa en producción** | Plataforma de corrección con router multi-modelo (GPT + Claude), human-in-the-loop, workers en Azure Container Apps, Airflow y observabilidad completa. Triage clínico conversacional (web + WhatsApp). Video generativo con Veo 3.1. |
+| **Computer Vision & Robótica** | Estimación de pose 6-DoF con Transformers (FoundationPose) y Diffusion Models sobre benchmarks BOP. Duckiebot autónomo: YOLO26 → TensorRT en Jetson Nano (mAP50 0.937). |
 | **IA para industrias reguladas** | Modelos predictivos ambientales para acuicultura (series temporales oceanográficas, modelo CROCO-OCEAN), mantenimiento predictivo industrial. |
 | **Data Engineering & MLOps** | Kedro, Airflow, Docker, FastAPI, CI/CD, observabilidad. Sistemas reproducibles de prototipo a producción. |
 
@@ -41,6 +42,16 @@ Tesis de Máster (UNIR 2026). Pipeline end-to-end: FoundationPose (Transformers,
 
 `Transformers` `Diffusion Models` `PyTorch` `SE(3) Lie Groups` `BOP Benchmark` `ROS 2`
 
+### krinoInsight — Plataforma de corrección con IA (en producción, Duoc UC)
+Corrige entregas de código, texto, repositorios y video con rúbricas por asignatura. Ningún feedback llega al estudiante sin el visto bueno del docente. Router multi-modelo, colas RabbitMQ, ingesta desde Blackboard con Airflow, guardias de PII y private endpoints en Azure. Más de 2.400 commits desde 2025. *Código privado.*
+
+`LLM Router` `FastAPI` `React 19` `Azure Container Apps` `RabbitMQ` `Airflow`
+
+### Duckietown DB21-J4 — Stack de autonomía modernizado
+Detección YOLO26 entrenada fuera del robot y desplegada con TensorRT en una Jetson Nano EOL (mAP50 0.937), seguimiento de carril por visión clásica, planificación A*/BFS, entorno Gymnasium + PPO. 324 tests y simulación sin robot.
+
+`YOLO` `TensorRT` `ROS` `Jetson` `RL`
+
 ### [chatpdfgio](https://github.com/Giocrisrai/chatpdfgio) — RAG full-stack
 Chatbot para conversar con documentos PDF. FastAPI + LangChain + Streamlit, contenerizado con Docker.
 
@@ -54,6 +65,7 @@ Chatbot para conversar con documentos PDF. FastAPI + LangChain + Streamlit, cont
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Kedro](https://img.shields.io/badge/Kedro-43C0F6?style=flat-square&logo=kedro&logoColor=white)
 ![ROS 2](https://img.shields.io/badge/ROS%202-22314E?style=flat-square&logo=ros&logoColor=white)
