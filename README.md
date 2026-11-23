@@ -37,7 +37,7 @@ Open to senior AI Engineer, LLM Engineer and AI Security roles, and to consultin
 ## Featured projects
 
 ### [agent-assurance](https://github.com/Giocrisrai/agent-assurance) — Security testing for LLM agents
-Methodology and test harness for assessing the security of LLM agents and applications in production, distilled from real audits. Mapped to the OWASP LLM Top 10. Five probes, a CLI, a client-ready report, CI on Python 3.11–3.13, published on [PyPI](https://pypi.org/project/agent-assurance/). **[See a sample report →](https://giocrisrai.github.io/agent-assurance/)**
+Methodology and test harness for assessing the security of LLM agents and applications in production, distilled from real audits. Mapped to the OWASP LLM Top 10. Five probes, a CLI, a client-ready report, CI on Python 3.11–3.13. **[See a sample report →](https://giocrisrai.github.io/agent-assurance/)**
 
 `OWASP LLM` `Red Teaming` `Prompt Injection` `Python` `Security`
 
