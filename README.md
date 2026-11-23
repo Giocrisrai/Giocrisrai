@@ -12,7 +12,7 @@ Verificación y seguridad de agentes LLM, visión por computador para robótica,
 
 ---
 
-Ingeniero de IA con formación en Mecatrónica y dos magísteres (IA + Ingeniería Matemática y Computación). Construyo y **opero** sistemas de IA en producción: una plataforma de evaluación con LLM que corre en Azure para Duoc UC, auditorías de seguridad de agentes conversacionales para empresas chilenas, robótica autónoma en el borde (Jetson + TensorRT) y estimación de pose 6-DoF con Transformers. Profesor e investigador en Duoc UC.
+Ingeniero de IA con formación en Mecatrónica, Magíster en Inteligencia Artificial y Magíster en Ingeniería Matemática y Computación (tesis defendida, 2026). Construyo y **opero** sistemas de IA en producción: una plataforma de evaluación con LLM que corre en Azure, desarrollada como investigación aplicada con Duoc UC, auditorías de seguridad de agentes conversacionales para empresas chilenas, robótica autónoma en el borde (Jetson + TensorRT) y estimación de pose 6-DoF con Transformers. Profesor e investigador en Duoc UC.
 
 La diferencia que me importa: **no solo pruebo sistemas de IA, los mantengo corriendo con SLA, incidentes reales y usuarios de verdad.**
 
@@ -26,6 +26,7 @@ La diferencia que me importa: **no solo pruebo sistemas de IA, los mantengo corr
 | **IA generativa en producción** | Plataforma de corrección con router multi-modelo (GPT + Claude), human-in-the-loop, workers en Azure Container Apps, Airflow y observabilidad completa. Triage clínico conversacional (web + WhatsApp). Video generativo con Veo 3.1. |
 | **Computer Vision & Robótica** | Estimación de pose 6-DoF con Transformers (FoundationPose) y Diffusion Models sobre benchmarks BOP. Duckiebot autónomo: YOLO26 → TensorRT en Jetson Nano (mAP50 0.937). |
 | **IA para industrias reguladas** | Modelos predictivos ambientales para acuicultura (series temporales oceanográficas, modelo CROCO-OCEAN), mantenimiento predictivo industrial. |
+| **Desarrollo con agentes de IA** | Trabajo a diario con agentes de programación (Claude Code CLI, subagentes, herramientas MCP), respaldado por tests automatizados y revisión de código. También enseño a usarlos: [`taller-ia-agentes-biblioteca`](https://github.com/Giocrisrai/taller-ia-agentes-biblioteca). |
 | **Data Engineering & MLOps** | Kedro, Airflow, Docker, FastAPI, CI/CD, observabilidad. Sistemas reproducibles de prototipo a producción. |
 
 ---
@@ -42,7 +43,7 @@ Tesis de Máster (UNIR 2026). Pipeline end-to-end: FoundationPose (Transformers,
 
 `Transformers` `Diffusion Models` `PyTorch` `SE(3) Lie Groups` `BOP Benchmark` `ROS 2`
 
-### krinoInsight — Plataforma de corrección con IA (en producción, Duoc UC)
+### krinoInsight — Plataforma de corrección con IA (investigación aplicada con Duoc UC, en Azure)
 Corrige entregas de código, texto, repositorios y video con rúbricas por asignatura. Ningún feedback llega al estudiante sin el visto bueno del docente. Router multi-modelo, colas RabbitMQ, ingesta desde Blackboard con Airflow, guardias de PII y private endpoints en Azure. Más de 2.400 commits desde 2025. *Código privado.*
 
 `LLM Router` `FastAPI` `React 19` `Azure Container Apps` `RabbitMQ` `Airflow`
@@ -56,6 +57,14 @@ Detección YOLO26 entrenada fuera del robot y desplegada con TensorRT en una Jet
 Chatbot para conversar con documentos PDF. FastAPI + LangChain + Streamlit, contenerizado con Docker.
 
 `RAG` `FastAPI` `LangChain` `Docker`
+
+---
+
+## Docencia abierta
+
+Publico el material de mis asignaturas en Duoc UC como repositorios que los estudiantes ejecutan en Colab o Docker:
+[Machine Learning](https://github.com/Giocrisrai/mly1101-machine-learning) · [Aprendizaje por refuerzo](https://github.com/Giocrisrai/aprendizaje-refuerzo-duoc) · [Big Data](https://github.com/Giocrisrai/proyecto-big-data) · [Taller de agentes de IA](https://github.com/Giocrisrai/taller-ia-agentes-biblioteca) · [Blockchain](https://github.com/Giocrisrai/blockchain-cripto-lab).
+Mentor y autor de las plantillas de la [Hackathon IA Aplicada del Congreso Social UC 2026](https://github.com/Giocrisrai/hackathon-ia-congreso-social-2026-desafio2).
 
 ---
 
