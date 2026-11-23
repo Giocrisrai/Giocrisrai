@@ -14,7 +14,7 @@ Verificación y seguridad de agentes LLM, visión por computador para robótica,
 
 ---
 
-Ingeniero de IA con formación en Mecatrónica, Magíster en Inteligencia Artificial y Magíster en Ingeniería Matemática y Computación (tesis defendida, 2026). Construyo y **opero** sistemas de IA en producción: una plataforma de evaluación con LLM que corre en Azure, desarrollada como investigación aplicada con Duoc UC, auditorías de seguridad de agentes conversacionales para empresas chilenas, robótica autónoma en el borde (Jetson + TensorRT) y estimación de pose 6-DoF con Transformers. Profesor e investigador en Duoc UC.
+Ingeniero de IA con formación en Mecatrónica, Magíster en Inteligencia Artificial y Magíster en Ingeniería Matemática y Computación (tesis defendida, 2026). Construyo y **opero** sistemas de IA en producción: una plataforma de evaluación con LLM que corre en Azure, desarrollada como investigación aplicada con Duoc UC, auditorías de seguridad de agentes conversacionales para empresas chilenas, robótica autónoma en el borde (Jetson + TensorRT) y estimación de pose 6-DoF con Transformers. Hoy soy profesor e investigador en Duoc UC e ingeniero de datos en MTsolutions (IIoT para manufactura).
 
 La diferencia que me importa: **no solo pruebo sistemas de IA, los mantengo corriendo con SLA, incidentes reales y usuarios de verdad.**
 

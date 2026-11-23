@@ -13,7 +13,7 @@ I build, ship and **operate** LLM systems in production: agents, RAG and multi-m
 
 ---
 
-AI engineer with a Mechatronics Engineering background, an MSc in Artificial Intelligence and an MSc in Mathematical Engineering & Computation (thesis defended, 2026). 10+ years of engineering across manufacturing, mining, environmental consulting and education. Professor and applied researcher at Duoc UC.
+AI engineer with a Mechatronics Engineering background, an MSc in Artificial Intelligence and an MSc in Mathematical Engineering & Computation (thesis defended, 2026). 10+ years of engineering across manufacturing, mining, environmental consulting and education. Currently professor and applied researcher at Duoc UC, and Data Engineer at MTsolutions (IIoT for manufacturing).
 
 What I care about: **I don't only test AI systems, I keep them running — with real users and real incidents.**
 
