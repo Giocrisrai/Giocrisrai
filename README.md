@@ -51,8 +51,8 @@ A platform that helps instructors grade student work against course rubrics. No 
 
 `LLMs` `Human-in-the-loop` `Azure` `EdTech`
 
-### Duckietown DB21-J4 — Modernized autonomy stack
-YOLO26 detection trained off-robot and deployed with TensorRT on an end-of-life Jetson Nano (mAP50 0.937), classical-vision lane following, A*/BFS planning, a Gymnasium + PPO environment. 324 tests and simulation without the robot.
+### [Duckietown DB21-J4](https://github.com/Giocrisrai/duckietown-db21j4-autonomy) — Modernized autonomy stack
+YOLO26 detection trained off-robot and deployed with TensorRT on an end-of-life Jetson Nano (mAP50 0.937), classical-vision lane following, A*/BFS planning, a Gymnasium + PPO environment. 393 tests and simulation without the robot.
 
 `YOLO` `TensorRT` `ROS` `Jetson` `RL`
 
@@ -60,6 +60,11 @@ YOLO26 detection trained off-robot and deployed with TensorRT on an end-of-life 
 A web app that grades student code against a rubric with Google Gemini and returns per-criterion scores, feedback and a final grade, exportable to PDF. React 19 + TypeScript, 24 tests, CI. **[Live demo →](https://giocrisrai.github.io/teaching_assistant_in_code_review/)**
 
 `React` `TypeScript` `Gemini` `EdTech` `Vitest`
+
+### [guitar-practice-trainer](https://github.com/Giocrisrai/guitar-practice-trainer) — Real-time audio for guitar practice
+Free software to practice guitar on macOS with the Rocksmith Real Tone cable: real-time pitch detection, a tuner and fretboard monitor, exercises graded on note, intonation and tempo, and a play-along lane for full pieces. Python audio core + React 19, 1,500+ tests.
+
+`DSP` `Pitch Detection` `Python` `FastAPI` `React`
 
 ### [chatpdfgio](https://github.com/Giocrisrai/chatpdfgio) — Full-stack RAG
 A chatbot for talking to PDF documents. FastAPI + LangChain + Streamlit, containerized with Docker. **[Try the in-browser retrieval demo →](https://giocrisrai.github.io/chatpdfgio/)**
