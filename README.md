@@ -1,9 +1,10 @@
 # Giocrisrai Godoy Bonillo
 
-**AI Engineer** · LLM Security & Assurance · Puerto Montt, Chile
+**English** · [Español](README.es.md)
 
-Ingeniería de IA para **sistemas en producción** — no prototipos, no demos.
-Verificación y seguridad de agentes LLM, visión por computador para robótica, y modelos predictivos para industrias reguladas.
+**AI Engineer** · LLM Agents in Production · LLM Security & Red Teaming · Puerto Montt, Chile (UTC-3/-4) · Remote worldwide
+
+I build, ship and **operate** LLM systems in production: agents, RAG and multi-model pipelines with real users. I also audit them — security assessments of LLM agents mapped to the OWASP Top 10 for LLM Applications.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-giocrisrai.com-0a6a79?style=flat-square)](https://giocrisrai.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Giocrisrai-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/giocrisrai)
@@ -12,59 +13,61 @@ Verificación y seguridad de agentes LLM, visión por computador para robótica,
 
 ---
 
-Ingeniero de IA con formación en Mecatrónica, Magíster en Inteligencia Artificial y Magíster en Ingeniería Matemática y Computación (tesis defendida, 2026). Construyo y **opero** sistemas de IA en producción: una plataforma de evaluación con LLM que corre en Azure, desarrollada como investigación aplicada con Duoc UC, auditorías de seguridad de agentes conversacionales para empresas chilenas, robótica autónoma en el borde (Jetson + TensorRT) y estimación de pose 6-DoF con Transformers. Profesor e investigador en Duoc UC.
+AI engineer with a Mechatronics Engineering background, an MSc in Artificial Intelligence and an MSc in Mathematical Engineering & Computation (thesis defended, 2026). 10+ years of engineering across manufacturing, mining, environmental consulting and education. Professor and applied researcher at Duoc UC.
 
-La diferencia que me importa: **no solo pruebo sistemas de IA, los mantengo corriendo con SLA, incidentes reales y usuarios de verdad.**
+What I care about: **I don't only test AI systems, I keep them running — with real users and real incidents.**
+
+Open to senior AI Engineer, LLM Engineer and AI Security roles, and to consulting engagements. English and Spanish.
 
 ---
 
-## En qué trabajo
+## What I work on
 
 | | |
 |---|---|
-| **AI Assurance & Seguridad de LLM** | Auditoría de agentes conversacionales mapeada a OWASP Top 10 for LLM Applications y NIST AI RMF: prompt injection, fuga de system prompt, agencia excesiva, consumo no acotado. → [`agent-assurance`](https://github.com/Giocrisrai/agent-assurance) |
-| **IA generativa en producción** | Plataforma de corrección con IA y human-in-the-loop, desarrollada con Duoc UC sobre Azure. Triage clínico conversacional (web + WhatsApp). Video generativo con Veo 3.1. |
-| **Computer Vision & Robótica** | Estimación de pose 6-DoF con Transformers (FoundationPose) y Diffusion Models sobre benchmarks BOP. Duckiebot autónomo: YOLO26 → TensorRT en Jetson Nano (mAP50 0.937). |
-| **IA para industrias reguladas** | Modelos predictivos ambientales para acuicultura (series temporales oceanográficas, modelo CROCO-OCEAN), mantenimiento predictivo industrial. |
-| **Desarrollo con agentes de IA** | Trabajo a diario con agentes de programación (Claude Code CLI, subagentes, herramientas MCP), respaldado por tests automatizados y revisión de código. También enseño a usarlos: [`taller-ia-agentes-biblioteca`](https://github.com/Giocrisrai/taller-ia-agentes-biblioteca). |
-| **Data Engineering & MLOps** | Kedro, Airflow, Docker, FastAPI, CI/CD, observabilidad. Sistemas reproducibles de prototipo a producción. |
+| **LLM security & assurance** | Audits of conversational agents mapped to the OWASP Top 10 for LLM Applications and NIST AI RMF: prompt injection, system-prompt leakage, excessive agency, unbounded consumption. → [`agent-assurance`](https://github.com/Giocrisrai/agent-assurance) |
+| **Generative AI in production** | An AI grading platform with human-in-the-loop, developed with Duoc UC on Azure. Conversational clinical triage (web + WhatsApp). Generative video with Veo 3.1. |
+| **Agentic software development** | I work daily with AI coding agents (Claude Code CLI, subagents, MCP tools), backed by automated tests and code review. I also teach it: [`taller-ia-agentes-biblioteca`](https://github.com/Giocrisrai/taller-ia-agentes-biblioteca). |
+| **Computer vision & robotics** | 6-DoF pose estimation with Transformers (FoundationPose) and Diffusion Models on BOP benchmarks. Autonomous Duckiebot: YOLO26 → TensorRT on a Jetson Nano (mAP50 0.937). |
+| **AI for regulated industries** | Predictive environmental models for aquaculture (oceanographic time series, CROCO-OCEAN model) and industrial predictive maintenance. |
+| **Data engineering & MLOps** | Kedro, Airflow, Docker, FastAPI, CI/CD, observability. Reproducible systems from prototype to production. |
 
 ---
 
-## Proyectos destacados
+## Featured projects
 
-### [agent-assurance](https://github.com/Giocrisrai/agent-assurance) — Seguridad de agentes LLM
-Metodología y arnés de pruebas para evaluar la seguridad de agentes y aplicaciones LLM en producción, destilado de auditorías reales. Mapeado a OWASP LLM Top 10. 5 sondas, CLI, informe listo para cliente, CI en Python 3.11–3.13.
+### [agent-assurance](https://github.com/Giocrisrai/agent-assurance) — Security testing for LLM agents
+Methodology and test harness for assessing the security of LLM agents and applications in production, distilled from real audits. Mapped to the OWASP LLM Top 10. Five probes, a CLI, a client-ready report, CI on Python 3.11–3.13, published on [PyPI](https://pypi.org/project/agent-assurance/).
 
 `OWASP LLM` `Red Teaming` `Prompt Injection` `Python` `Security`
 
-### [pose6dof-transformers-diffusion](https://github.com/Giocrisrai/pose6dof-transformers-diffusion) — Estimación de Pose 6-DoF
-Tesis de Máster (UNIR 2026). Pipeline end-to-end: FoundationPose (Transformers, CVPR 2024) vs GDR-Net++ en benchmarks BOP, con Diffusion Policy para generación multi-modal de trayectorias de agarre. 293 tests, bootstrap CI 95%, paquete publicado en PyPI ([`bop-bootstrap-ci`](https://pypi.org/project/bop-bootstrap-ci/)).
+### [pose6dof-transformers-diffusion](https://github.com/Giocrisrai/pose6dof-transformers-diffusion) — 6-DoF pose estimation
+MSc thesis (UNIR, 2026). End-to-end pipeline: FoundationPose (Transformers, CVPR 2024) vs GDR-Net++ on BOP benchmarks, with Diffusion Policy for multi-modal grasp trajectory generation. 293 tests, bootstrap 95% confidence intervals, and a package on PyPI ([`bop-bootstrap-ci`](https://pypi.org/project/bop-bootstrap-ci/)).
 
 `Transformers` `Diffusion Models` `PyTorch` `SE(3) Lie Groups` `BOP Benchmark` `ROS 2`
 
-### krinoInsight — Plataforma de corrección con IA (investigación aplicada con Duoc UC)
-Plataforma que apoya a los docentes en la corrección de entregas con rúbricas por asignatura. Ningún feedback llega al estudiante sin el visto bueno del docente. Proyecto institucional de investigación aplicada con Duoc UC, donde soy ingeniero principal. *Código y detalles internos privados.*
+### krinoInsight — AI grading platform (applied research with Duoc UC)
+A platform that helps instructors grade student work against course rubrics. No feedback reaches a student without the instructor's approval. An institutional applied-research project with Duoc UC, where I am lead engineer. *Code and internal details are private.*
 
 `LLMs` `Human-in-the-loop` `Azure` `EdTech`
 
-### Duckietown DB21-J4 — Stack de autonomía modernizado
-Detección YOLO26 entrenada fuera del robot y desplegada con TensorRT en una Jetson Nano EOL (mAP50 0.937), seguimiento de carril por visión clásica, planificación A*/BFS, entorno Gymnasium + PPO. 324 tests y simulación sin robot.
+### Duckietown DB21-J4 — Modernized autonomy stack
+YOLO26 detection trained off-robot and deployed with TensorRT on an end-of-life Jetson Nano (mAP50 0.937), classical-vision lane following, A*/BFS planning, a Gymnasium + PPO environment. 324 tests and simulation without the robot.
 
 `YOLO` `TensorRT` `ROS` `Jetson` `RL`
 
-### [chatpdfgio](https://github.com/Giocrisrai/chatpdfgio) — RAG full-stack
-Chatbot para conversar con documentos PDF. FastAPI + LangChain + Streamlit, contenerizado con Docker.
+### [chatpdfgio](https://github.com/Giocrisrai/chatpdfgio) — Full-stack RAG
+A chatbot for talking to PDF documents. FastAPI + LangChain + Streamlit, containerized with Docker.
 
 `RAG` `FastAPI` `LangChain` `Docker`
 
 ---
 
-## Docencia abierta
+## Open teaching
 
-Publico el material de mis asignaturas en Duoc UC como repositorios que los estudiantes ejecutan en Colab o Docker:
-[Machine Learning](https://github.com/Giocrisrai/mly1101-machine-learning) · [Aprendizaje por refuerzo](https://github.com/Giocrisrai/aprendizaje-refuerzo-duoc) · [Big Data](https://github.com/Giocrisrai/proyecto-big-data) · [Taller de agentes de IA](https://github.com/Giocrisrai/taller-ia-agentes-biblioteca) · [Blockchain](https://github.com/Giocrisrai/blockchain-cripto-lab).
-Mentor y autor de las plantillas de la [Hackathon IA Aplicada del Congreso Social UC 2026](https://github.com/Giocrisrai/hackathon-ia-congreso-social-2026-desafio2).
+I publish my Duoc UC course material as repositories that students run in Colab or Docker (in Spanish):
+[Machine Learning](https://github.com/Giocrisrai/mly1101-machine-learning) · [Reinforcement Learning](https://github.com/Giocrisrai/aprendizaje-refuerzo-duoc) · [Big Data](https://github.com/Giocrisrai/proyecto-big-data) · [AI agents workshop](https://github.com/Giocrisrai/taller-ia-agentes-biblioteca) · [Blockchain](https://github.com/Giocrisrai/blockchain-cripto-lab).
+Mentor and template author for the [Applied AI Hackathon at Congreso Social UC 2026](https://github.com/Giocrisrai/hackathon-ia-congreso-social-2026-desafio2).
 
 ---
 
@@ -79,7 +82,3 @@ Mentor y autor de las plantillas de la [Hackathon IA Aplicada del Congreso Socia
 ![Kedro](https://img.shields.io/badge/Kedro-43C0F6?style=flat-square&logo=kedro&logoColor=white)
 ![ROS 2](https://img.shields.io/badge/ROS%202-22314E?style=flat-square&logo=ros&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FF6C00?style=flat-square&logo=huggingface&logoColor=white)
-
----
-
-> *Construyo sistemas de IA de nivel producción — no prototipos, no demos. Sistemas reales que resuelven problemas reales.*
