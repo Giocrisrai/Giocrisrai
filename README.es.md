@@ -61,7 +61,7 @@ Aplicación web que evalúa código de estudiantes contra una rúbrica con Googl
 `React` `TypeScript` `Gemini` `EdTech` `Vitest`
 
 ### [chatpdfgio](https://github.com/Giocrisrai/chatpdfgio) — RAG full-stack
-Chatbot para conversar con documentos PDF. FastAPI + LangChain + Streamlit, contenerizado con Docker.
+Chatbot para conversar con documentos PDF. FastAPI + LangChain + Streamlit, contenerizado con Docker. **[Probar la demo de búsqueda en el navegador →](https://giocrisrai.github.io/chatpdfgio/)**
 
 `RAG` `FastAPI` `LangChain` `Docker`
 

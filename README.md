@@ -42,7 +42,7 @@ Methodology and test harness for assessing the security of LLM agents and applic
 `OWASP LLM` `Red Teaming` `Prompt Injection` `Python` `Security`
 
 ### [pose6dof-transformers-diffusion](https://github.com/Giocrisrai/pose6dof-transformers-diffusion) — 6-DoF pose estimation
-MSc thesis (UNIR, 2026). End-to-end pipeline: FoundationPose (Transformers, CVPR 2024) vs GDR-Net++ on BOP benchmarks, with Diffusion Policy for multi-modal grasp trajectory generation. 293 tests, bootstrap 95% confidence intervals, and a package on PyPI ([`bop-bootstrap-ci`](https://pypi.org/project/bop-bootstrap-ci/)).
+MSc thesis (UNIR, 2026). End-to-end pipeline: FoundationPose (Transformers, CVPR 2024) vs GDR-Net++ on BOP benchmarks, with Diffusion Policy for multi-modal grasp trajectory generation. 293 tests, bootstrap 95% confidence intervals, and a package on PyPI ([`bop-bootstrap-ci`](https://pypi.org/project/bop-bootstrap-ci/)). **[Live results dashboard →](https://giocrisrai.github.io/pose6dof-transformers-diffusion/)**
 
 `Transformers` `Diffusion Models` `PyTorch` `SE(3) Lie Groups` `BOP Benchmark` `ROS 2`
 
@@ -62,7 +62,7 @@ A web app that grades student code against a rubric with Google Gemini and retur
 `React` `TypeScript` `Gemini` `EdTech` `Vitest`
 
 ### [chatpdfgio](https://github.com/Giocrisrai/chatpdfgio) — Full-stack RAG
-A chatbot for talking to PDF documents. FastAPI + LangChain + Streamlit, containerized with Docker.
+A chatbot for talking to PDF documents. FastAPI + LangChain + Streamlit, containerized with Docker. **[Try the in-browser retrieval demo →](https://giocrisrai.github.io/chatpdfgio/)**
 
 `RAG` `FastAPI` `LangChain` `Docker`
 
