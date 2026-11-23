@@ -23,7 +23,7 @@ La diferencia que me importa: **no solo pruebo sistemas de IA, los mantengo corr
 | | |
 |---|---|
 | **AI Assurance & Seguridad de LLM** | Auditoría de agentes conversacionales mapeada a OWASP Top 10 for LLM Applications y NIST AI RMF: prompt injection, fuga de system prompt, agencia excesiva, consumo no acotado. → [`agent-assurance`](https://github.com/Giocrisrai/agent-assurance) |
-| **IA generativa en producción** | Plataforma de corrección con router multi-modelo (GPT + Claude), human-in-the-loop, workers en Azure Container Apps, Airflow y observabilidad completa. Triage clínico conversacional (web + WhatsApp). Video generativo con Veo 3.1. |
+| **IA generativa en producción** | Plataforma de corrección con IA y human-in-the-loop, desarrollada con Duoc UC sobre Azure. Triage clínico conversacional (web + WhatsApp). Video generativo con Veo 3.1. |
 | **Computer Vision & Robótica** | Estimación de pose 6-DoF con Transformers (FoundationPose) y Diffusion Models sobre benchmarks BOP. Duckiebot autónomo: YOLO26 → TensorRT en Jetson Nano (mAP50 0.937). |
 | **IA para industrias reguladas** | Modelos predictivos ambientales para acuicultura (series temporales oceanográficas, modelo CROCO-OCEAN), mantenimiento predictivo industrial. |
 | **Desarrollo con agentes de IA** | Trabajo a diario con agentes de programación (Claude Code CLI, subagentes, herramientas MCP), respaldado por tests automatizados y revisión de código. También enseño a usarlos: [`taller-ia-agentes-biblioteca`](https://github.com/Giocrisrai/taller-ia-agentes-biblioteca). |
@@ -43,10 +43,10 @@ Tesis de Máster (UNIR 2026). Pipeline end-to-end: FoundationPose (Transformers,
 
 `Transformers` `Diffusion Models` `PyTorch` `SE(3) Lie Groups` `BOP Benchmark` `ROS 2`
 
-### krinoInsight — Plataforma de corrección con IA (investigación aplicada con Duoc UC, en Azure)
-Corrige entregas de código, texto, repositorios y video con rúbricas por asignatura. Ningún feedback llega al estudiante sin el visto bueno del docente. Router multi-modelo, colas RabbitMQ, ingesta desde Blackboard con Airflow, guardias de PII y private endpoints en Azure. Más de 2.400 commits desde 2025. *Código privado.*
+### krinoInsight — Plataforma de corrección con IA (investigación aplicada con Duoc UC)
+Plataforma que apoya a los docentes en la corrección de entregas con rúbricas por asignatura. Ningún feedback llega al estudiante sin el visto bueno del docente. Proyecto institucional de investigación aplicada con Duoc UC, donde soy ingeniero principal. *Código y detalles internos privados.*
 
-`LLM Router` `FastAPI` `React 19` `Azure Container Apps` `RabbitMQ` `Airflow`
+`LLMs` `Human-in-the-loop` `Azure` `EdTech`
 
 ### Duckietown DB21-J4 — Stack de autonomía modernizado
 Detección YOLO26 entrenada fuera del robot y desplegada con TensorRT en una Jetson Nano EOL (mAP50 0.937), seguimiento de carril por visión clásica, planificación A*/BFS, entorno Gymnasium + PPO. 324 tests y simulación sin robot.
