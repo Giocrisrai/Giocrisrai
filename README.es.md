@@ -36,7 +36,7 @@ La diferencia que me importa: **no solo pruebo sistemas de IA, los mantengo corr
 ## Proyectos destacados
 
 ### [agent-assurance](https://github.com/Giocrisrai/agent-assurance) — Seguridad de agentes LLM
-Metodología y arnés de pruebas para evaluar la seguridad de agentes y aplicaciones LLM en producción, destilado de auditorías reales. Mapeado a OWASP LLM Top 10. 5 sondas, CLI, informe listo para cliente, CI en Python 3.11–3.13. **[Ver un informe de ejemplo →](https://giocrisrai.github.io/agent-assurance/)**
+Metodología y arnés de pruebas para evaluar la seguridad de agentes y aplicaciones LLM en producción, destilado de auditorías reales. Mapeado a OWASP LLM Top 10. 5 sondas, CLI, informe listo para cliente, CI en Python 3.11–3.13, en PyPI como [`llm-agent-assurance`](https://pypi.org/project/llm-agent-assurance/). **[Ver un informe de ejemplo →](https://giocrisrai.github.io/agent-assurance/)**
 
 `OWASP LLM` `Red Teaming` `Prompt Injection` `Python` `Security`
 
