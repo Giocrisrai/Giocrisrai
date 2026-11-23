@@ -36,7 +36,7 @@ La diferencia que me importa: **no solo pruebo sistemas de IA, los mantengo corr
 ## Proyectos destacados
 
 ### [agent-assurance](https://github.com/Giocrisrai/agent-assurance) — Seguridad de agentes LLM
-Metodología y arnés de pruebas para evaluar la seguridad de agentes y aplicaciones LLM en producción, destilado de auditorías reales. Mapeado a OWASP LLM Top 10. 5 sondas, CLI, informe listo para cliente, CI en Python 3.11–3.13.
+Metodología y arnés de pruebas para evaluar la seguridad de agentes y aplicaciones LLM en producción, destilado de auditorías reales. Mapeado a OWASP LLM Top 10. 5 sondas, CLI, informe listo para cliente, CI en Python 3.11–3.13. **[Ver un informe de ejemplo →](https://giocrisrai.github.io/agent-assurance/)**
 
 `OWASP LLM` `Red Teaming` `Prompt Injection` `Python` `Security`
 
@@ -54,6 +54,11 @@ Plataforma que apoya a los docentes en la corrección de entregas con rúbricas 
 Detección YOLO26 entrenada fuera del robot y desplegada con TensorRT en una Jetson Nano EOL (mAP50 0.937), seguimiento de carril por visión clásica, planificación A*/BFS, entorno Gymnasium + PPO. 324 tests y simulación sin robot.
 
 `YOLO` `TensorRT` `ROS` `Jetson` `RL`
+
+### [Revisor de código con IA](https://github.com/Giocrisrai/teaching_assistant_in_code_review) — Corrección de código con rúbrica
+Aplicación web que evalúa código de estudiantes contra una rúbrica con Google Gemini y entrega puntaje por criterio, retroalimentación y nota final, exportable a PDF. React 19 + TypeScript, 24 pruebas, CI. **[Demo en vivo →](https://giocrisrai.github.io/teaching_assistant_in_code_review/)**
+
+`React` `TypeScript` `Gemini` `EdTech` `Vitest`
 
 ### [chatpdfgio](https://github.com/Giocrisrai/chatpdfgio) — RAG full-stack
 Chatbot para conversar con documentos PDF. FastAPI + LangChain + Streamlit, contenerizado con Docker.

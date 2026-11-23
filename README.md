@@ -37,7 +37,7 @@ Open to senior AI Engineer, LLM Engineer and AI Security roles, and to consultin
 ## Featured projects
 
 ### [agent-assurance](https://github.com/Giocrisrai/agent-assurance) — Security testing for LLM agents
-Methodology and test harness for assessing the security of LLM agents and applications in production, distilled from real audits. Mapped to the OWASP LLM Top 10. Five probes, a CLI, a client-ready report, CI on Python 3.11–3.13, published on [PyPI](https://pypi.org/project/agent-assurance/).
+Methodology and test harness for assessing the security of LLM agents and applications in production, distilled from real audits. Mapped to the OWASP LLM Top 10. Five probes, a CLI, a client-ready report, CI on Python 3.11–3.13, published on [PyPI](https://pypi.org/project/agent-assurance/). **[See a sample report →](https://giocrisrai.github.io/agent-assurance/)**
 
 `OWASP LLM` `Red Teaming` `Prompt Injection` `Python` `Security`
 
@@ -55,6 +55,11 @@ A platform that helps instructors grade student work against course rubrics. No 
 YOLO26 detection trained off-robot and deployed with TensorRT on an end-of-life Jetson Nano (mAP50 0.937), classical-vision lane following, A*/BFS planning, a Gymnasium + PPO environment. 324 tests and simulation without the robot.
 
 `YOLO` `TensorRT` `ROS` `Jetson` `RL`
+
+### [AI Code Reviewer](https://github.com/Giocrisrai/teaching_assistant_in_code_review) — Rubric-based grading of student code
+A web app that grades student code against a rubric with Google Gemini and returns per-criterion scores, feedback and a final grade, exportable to PDF. React 19 + TypeScript, 24 tests, CI. **[Live demo →](https://giocrisrai.github.io/teaching_assistant_in_code_review/)**
+
+`React` `TypeScript` `Gemini` `EdTech` `Vitest`
 
 ### [chatpdfgio](https://github.com/Giocrisrai/chatpdfgio) — Full-stack RAG
 A chatbot for talking to PDF documents. FastAPI + LangChain + Streamlit, containerized with Docker.
