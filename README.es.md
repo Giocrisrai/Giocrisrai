@@ -41,7 +41,7 @@ Metodología y arnés de pruebas para evaluar la seguridad de agentes y aplicaci
 `OWASP LLM` `Red Teaming` `Prompt Injection` `Python` `Security`
 
 ### [pose6dof-transformers-diffusion](https://github.com/Giocrisrai/pose6dof-transformers-diffusion) — Estimación de Pose 6-DoF
-Tesis de Máster (UNIR 2026). Pipeline end-to-end: FoundationPose (Transformers, CVPR 2024) vs GDR-Net++ en benchmarks BOP, con Diffusion Policy para generación multi-modal de trayectorias de agarre. 314 tests, bootstrap CI 95%, paquete publicado en PyPI ([`bop-bootstrap-ci`](https://pypi.org/project/bop-bootstrap-ci/)). **[Dashboard de resultados en vivo →](https://giocrisrai.github.io/pose6dof-transformers-diffusion/)**
+Tesis de Máster (UNIR 2026). Pipeline end-to-end: FoundationPose (Transformers, CVPR 2024) vs GDR-Net++ en benchmarks BOP, con Diffusion Policy para generación multi-modal de trayectorias de agarre. 317 tests, bootstrap CI 95%, paquete publicado en PyPI ([`bop-bootstrap-ci`](https://pypi.org/project/bop-bootstrap-ci/)). **[Dashboard de resultados en vivo →](https://giocrisrai.github.io/pose6dof-transformers-diffusion/)**
 
 `Transformers` `Diffusion Models` `PyTorch` `SE(3) Lie Groups` `BOP Benchmark` `ROS 2`
 

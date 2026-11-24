@@ -42,7 +42,7 @@ Methodology and test harness for assessing the security of LLM agents and applic
 `OWASP LLM` `Red Teaming` `Prompt Injection` `Python` `Security`
 
 ### [pose6dof-transformers-diffusion](https://github.com/Giocrisrai/pose6dof-transformers-diffusion) — 6-DoF pose estimation
-MSc thesis (UNIR, 2026). End-to-end pipeline: FoundationPose (Transformers, CVPR 2024) vs GDR-Net++ on BOP benchmarks, with Diffusion Policy for multi-modal grasp trajectory generation. 314 tests, bootstrap 95% confidence intervals, and a package on PyPI ([`bop-bootstrap-ci`](https://pypi.org/project/bop-bootstrap-ci/)). **[Live results dashboard →](https://giocrisrai.github.io/pose6dof-transformers-diffusion/)**
+MSc thesis (UNIR, 2026). End-to-end pipeline: FoundationPose (Transformers, CVPR 2024) vs GDR-Net++ on BOP benchmarks, with Diffusion Policy for multi-modal grasp trajectory generation. 317 tests, bootstrap 95% confidence intervals, and a package on PyPI ([`bop-bootstrap-ci`](https://pypi.org/project/bop-bootstrap-ci/)). **[Live results dashboard →](https://giocrisrai.github.io/pose6dof-transformers-diffusion/)**
 
 `Transformers` `Diffusion Models` `PyTorch` `SE(3) Lie Groups` `BOP Benchmark` `ROS 2`
 
