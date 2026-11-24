@@ -52,7 +52,7 @@ A platform that helps instructors grade student work against course rubrics. No 
 `LLMs` `Human-in-the-loop` `Azure` `EdTech`
 
 ### [Duckietown DB21-J4](https://github.com/Giocrisrai/duckietown-db21j4-autonomy) — Modernized autonomy stack
-YOLO26 detection trained off-robot and deployed with TensorRT on an end-of-life Jetson Nano (mAP50 0.937), classical-vision lane following, A*/BFS planning, a Gymnasium + PPO environment. 393 tests and simulation without the robot.
+YOLO26 detection trained off-robot and deployed with TensorRT on an end-of-life Jetson Nano (mAP50 0.937), classical-vision lane following, A*/BFS planning, a Gymnasium + PPO environment. 397 tests and simulation without the robot.
 
 `YOLO` `TensorRT` `ROS` `Jetson` `RL`
 

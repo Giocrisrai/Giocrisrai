@@ -51,7 +51,7 @@ Plataforma que apoya a los docentes en la corrección de entregas con rúbricas 
 `LLMs` `Human-in-the-loop` `Azure` `EdTech`
 
 ### [Duckietown DB21-J4](https://github.com/Giocrisrai/duckietown-db21j4-autonomy) — Stack de autonomía modernizado
-Detección YOLO26 entrenada fuera del robot y desplegada con TensorRT en una Jetson Nano EOL (mAP50 0.937), seguimiento de carril por visión clásica, planificación A*/BFS, entorno Gymnasium + PPO. 393 tests y simulación sin robot.
+Detección YOLO26 entrenada fuera del robot y desplegada con TensorRT en una Jetson Nano EOL (mAP50 0.937), seguimiento de carril por visión clásica, planificación A*/BFS, entorno Gymnasium + PPO. 397 tests y simulación sin robot.
 
 `YOLO` `TensorRT` `ROS` `Jetson` `RL`
 
