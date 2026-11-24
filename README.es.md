@@ -66,9 +66,9 @@ Software libre para practicar guitarra en macOS con el cable Rocksmith Real Tone
 `DSP` `Detección de tono` `Python` `FastAPI` `React`
 
 ### [chatpdfgio](https://github.com/Giocrisrai/chatpdfgio) — RAG full-stack
-Chatbot para conversar con documentos PDF. FastAPI + LangChain + Streamlit, contenerizado con Docker. **[Probar la demo de búsqueda en el navegador →](https://giocrisrai.github.io/chatpdfgio/)**
+Chatea con PDF, Word, presentaciones y audio. Las respuestas se fundamentan en los pasajes recuperados y citan sus páginas de origen. FastAPI + OpenAI + Pinecone + Streamlit, con un backend local que corre sin conexión, 34 pruebas y CI. **[Probar la demo de búsqueda en el navegador →](https://giocrisrai.github.io/chatpdfgio/)**
 
-`RAG` `FastAPI` `LangChain` `Docker`
+`RAG` `FastAPI` `OpenAI` `Pinecone` `Docker`
 
 ---
 
